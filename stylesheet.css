@@ -1,0 +1,265 @@
+
+
+
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    width:700px ;
+    margin-left: 10rem;
+    
+
+
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100px;
+}
+
+#upper{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    
+    padding: 3px;
+}
+
+#lower{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    
+    padding: 3px;
+}
+
+.avatar{
+    display: flex;
+    height: 35px;
+    width: 35px;
+    padding: 0px;
+    margin: 0px;
+    
+}
+button{
+    border: 0px;
+    padding: 6px;
+    background-color: white;
+    font-size: 15px;
+    color: hsl(220, 14%, 75%);
+    margin-right: 20px;
+}
+.tools{
+    font: 50px;
+    margin: 3px;
+    padding: 0px;
+}
+
+.logo{
+    margin-top: 3px;
+    margin-right: 5rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 470px;
+    width: 1100px;
+    margin-top: 5.0rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main{
+    width: 300px;
+    height: 300px;
+    border-radius: 13px;
+}
+
+.west , .east{
+    width: 50%;
+}
+
+.west{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.straight{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+}
+
+.big{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+
+}
+
+.small{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.big , .small{
+
+    justify-content: space-between;
+}
+
+.two , .three , .four , .five{
+    border-radius: 7px;
+}
+
+.east{
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.easteast{
+    width: 75%;
+
+}
+
+#company{
+    color: hsl(24, 100%, 41%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 3rem;
+    
+}
+#bold{
+    font-size: 35px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bolder;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+#grey{
+
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(220, 14%, 75%);
+    font-weight: 100;
+    margin-top: 1.5rem;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.amount{
+    font-size: 28px;
+    margin-right: 1.5rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    
+}
+
+.percentage{
+    color: hsl(24, 100%, 41%);
+    background-color: hsl(25, 100%, 94%);
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: smaller;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.initial{
+    margin-top: 0.5rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(220, 14%, 75%);
+    text-decoration: line-through;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    height: 45px;
+    
+    
+}
+
+.hardest{
+    background-color:  hsl(220, 14%, 75%);
+    display: flex;
+    flex-direction: row;
+    padding-right: 25px;
+    border-radius: 7px;
+
+}
+
+
+.minus ,.zero, .add{
+    height: 15px;
+    width: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2rem;
+
+    
+
+    justify-content: center;
+}
+.zero{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 800;
+    color: hsl(220, 13%, 13%);
+    
+
+}
+
+
+.sufuri{
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    padding: 0%;
+}
+
+.addition{
+    padding: 0%;
+}
+
+.orange{
+    display: flex;
+    margin-left: 1rem;
+    flex-direction: row;
+    background-color: hsl(23, 95%, 52%);
+    border-radius: 7px;
+    width: 200px;
+    padding-right: 40px;
+    padding-left: 20px;
+    
+}
+#last{
+    background-color: hsl(23, 95%, 52%);
+   
+
+}
+
+#lower{
+    margin-right: 0%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
